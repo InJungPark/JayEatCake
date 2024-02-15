@@ -100,9 +100,9 @@ npm i --save @fortawesome/free-brands-svg-icons
 npm i --save @fortawesome/vue-fontawesome@latest-3
 ```
 ## src/assets/common.js 추가 작성 내용
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500;600&family=Nunito:wght@200;500;600&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500;600&family=Nunito:wght@200;500;600&display=swap');<br>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');<br>
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');<br>
 
 ## src/main.js fontawesome 추가 작성 내용(기존 내용 포함)
 import './assets/common.css'
@@ -136,7 +136,6 @@ app.mount('#app')
 
 ## index.html 작성된 코드 안에 Bootstrap js 내용 추가
 <html lang="ko">
-
 <head>
   <meta charset="UTF-8">
   <link rel="icon" href="/favicon.ico">
@@ -152,7 +151,6 @@ app.mount('#app')
   <script type="text/javascript"
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
 
 
