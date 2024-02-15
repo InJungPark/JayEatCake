@@ -56,7 +56,9 @@ cd jay_eat_cake
 ### Compile and Hot-Reload for Development
 ```sh
 npm run dev
+```
 or
+```sh
 npm run serve
 ```
 
