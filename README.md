@@ -135,6 +135,7 @@ app.use(router)
 app.mount('#app')
 
 ## index.html 작성된 코드 안에 Bootstrap js 내용 추가
+```
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
@@ -151,5 +152,4 @@ app.mount('#app')
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
+```
