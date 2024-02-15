@@ -10,22 +10,78 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## vue install
+```sh
+vue create jay_eat_cake
+```
+Vue CLI v5.0.8
+? Please pick a preset: Manually select features
+? Check the features needed for your project: (Press <space> to select, <a> 
+to toggle all, <i> to invert selection, and <enter> to proceed)
+ ( ) Babel
+ ( ) TypeScript
+ (*) Progressive Web App (PWA) Support
+ (*) Router
+ ( ) Vuex
+ ( ) CSS Pre-processors
+ ( ) Linter / Formatter
+ ( ) Unit Testing
+ ( ) E2E Testing
 
+Vue CLI v5.0.8
+? Please pick a preset: Manually select features
+? Check the features needed for your project: PWA, Router
+? Choose a version of Vue.js that you want to start the project with (User arrow keys)
+>3.x
+2.x
+
+Vue CLI v5.0.8
+? Please pick a preset: Manually select features
+? Check the features needed for your project: PWA, Router
+? Choose a version of Vue.js that you want to start the project with 3.x    
+? Use history mode for router? (Requires proper server setup for index fallback in production) 
+  (Y/n) y
+? Where do you prefer placing config for Babel, ESLint, etc.? 
+In dedicated config files
+> Inpackage.json
+? Save this as a preset for future projects? 
+  (y/N) n
+
+```sh
+cd jay_eat_cake
+```
+
+### Compile and Hot-Reload for Development
+```sh
+npm run dev
+or
+npm run serve
+```
+
+## Firebase install
+```sh
+npm install -g firebase-tools
+```
+
+## Project Setup
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+## Firebase install
 ```sh
-npm run dev
+npm install -g firebase-tools
+```
+
+## PWA : Installing vite-plugin-pwa
+```sh
+npm install -D vite-plugin-pwa
 ```
 
 ### Compile and Minify for Production
-
 ```sh
 npm run build
+firebase deploy
 ```
 
 ## vue.js fontawesome install
@@ -37,14 +93,4 @@ npm i --save @fortawesome/free-solid-svg-icons
 npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/free-brands-svg-icons
 npm i --save @fortawesome/vue-fontawesome@latest-3
-```
-
-## PWA : Installing vite-plugin-pwa
-```sh
-npm install -D vite-plugin-pwa
-```
-
-## Firebase install
-```sh
-npm install -g firebase-tools
 ```
