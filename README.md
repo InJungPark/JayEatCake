@@ -135,22 +135,21 @@ app.use(router)
 app.mount('#app')
 
 ## index.html 작성된 코드 안에 Bootstrap js 내용 추가
-<html lang="ko"><br>
-<head><br>
-  <meta charset="UTF-8"><br>
-  <link rel="icon" href="/favicon.ico"><br>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
-  <title>JAY EAT CAKE</title><br>
-  <link rel="apple-touch-icon" href="/src/assets/icons/favicon.ico" sizes="192x192"><br>
-  <link rel="mask-icon" href="/src/assets/logo.svg" color="#FFFFFF"><br>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAY EAT CAKE</title>
+  <link rel="apple-touch-icon" href="/src/assets/icons/favicon.ico" sizes="192x192">
+  <link rel="mask-icon" href="/src/assets/logo.svg" color="#FFFFFF">
 </head>
 
-<body><br>
-  <div id="app"></div><br>
-  <script type="module" src="/src/main.js"></script><br>
-  <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-</body><br>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
 
 
