@@ -10,7 +10,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-# 툴 체인 및 설치 옵션션
+# 툴 체인 및 설치 옵션
 ## vue install
 ```sh
 vue create jay_eat_cake
@@ -88,7 +88,7 @@ npm install -D vite-plugin-pwa
 npm run build
 firebase deploy
 ```
-# 설치한 모
+# 설치한 모듈
 ## vue.js fontawesome install
 vue에서 fontawesome을 사용하기 위한 기본 라이브러리 설치
 (맨 아래 라이브러리의 경우 설치된 vue 버전에 따라 2 또는 3 선택)
