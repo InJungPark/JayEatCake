@@ -29,8 +29,7 @@ npm run build
 ```
 
 ## vue.js fontawesome install docx
-
-1. vue에서 fontawesome을 사용하기 위한 기본 라이브러리 설치
+vue에서 fontawesome을 사용하기 위한 기본 라이브러리 설치
 (맨 아래 라이브러리의 경우 설치된 vue 버전에 따라 2 또는 3 선택)
 ```sh
 npm i --save @fortawesome/fontawesome-svg-core
