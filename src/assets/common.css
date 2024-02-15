@@ -1,0 +1,89 @@
+@charset "utf-8";
+@import url(header.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500;600&family=Nunito:wght@200;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+
+@media screen and (min-width: 1024px) {
+
+  /* pc version */
+  #app {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /* mobile version */
+  #app {
+    padding: 0;
+  }
+
+  .footer_section {
+    flex-direction: column-reverse;
+  }
+
+  .footer_info {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+#app {
+  font-family: 'NotoSansKR', 'Nunito';
+  margin: 0;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  text-align: center;
+}
+
+nav svg {
+  margin-left: 5px;
+}
+
+.pt10 {
+  padding-top: 10px !important;
+}
+
+.card {
+  border: 1px solid #00000042;
+  margin-left: 3%;
+}
+
+#scrollTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgb(0 0 0 / 22%);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#scrollTop:hover {
+  background-color: #FFA500;
+}
+
+#scrollTop i {
+  font-size: 20px;
+}
+
+h1 {
+  color: #FFA500;
+  margin: 3%;
+}
+
+/* Text common id to be highlighted */
+#emphasis {
+  color: #FF0000;
+  font-weight: bold;
+}
