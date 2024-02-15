@@ -112,17 +112,17 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-/* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
-/* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-/* import specific icons */
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-import './registerServiceWorker'
+/* import the fontawesome core */<br>
+import { library } from '@fortawesome/fontawesome-svg-core'<br>
+/* import font awesome icon component */<br>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'<br>
+/* import specific icons */<br>
+import { fas } from '@fortawesome/free-solid-svg-icons'<br>
+import { fab } from '@fortawesome/free-brands-svg-icons'<br>
+import { far } from '@fortawesome/free-regular-svg-icons'<br>
+import './registerServiceWorker'<br>
 
-/* add icons to the library */
+/* add icons to the library */<br>
 library.add(fas, fab, far)
 
 const app = createApp(App)
