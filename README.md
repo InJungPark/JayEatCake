@@ -38,3 +38,13 @@ npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/free-brands-svg-icons
 npm i --save @fortawesome/vue-fontawesome@latest-3
 ```
+
+## PWA : Installing vite-plugin-pwa
+```sh
+npm install -D vite-plugin-pwa
+```
+
+## Firebase install
+```sh
+npm install -g firebase-tools
+```
