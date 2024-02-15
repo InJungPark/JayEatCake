@@ -14,6 +14,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 vue create jay_eat_cake
 ```
+```sh
 Vue CLI v5.0.8
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: (Press <space> to select, <a> 
@@ -46,6 +47,7 @@ In dedicated config files
 > Inpackage.json
 ? Save this as a preset for future projects? 
   (y/N) n
+```
 
 ```sh
 cd jay_eat_cake
