@@ -88,6 +88,7 @@ npm install -D vite-plugin-pwa
 npm run build
 firebase deploy
 ```
+
 # 설치한 모듈
 ## vue.js fontawesome install
 vue에서 fontawesome을 사용하기 위한 기본 라이브러리 설치
@@ -100,11 +101,14 @@ npm i --save @fortawesome/free-brands-svg-icons
 npm i --save @fortawesome/vue-fontawesome@latest-3
 ```
 ## src/assets/common.js 추가 작성 내용
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500;600&family=Nunito:wght@200;500;600&display=swap');<br>
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');<br>
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');<br>
+```
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500;600&family=Nunito:wght@200;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+```
 
 ## src/main.js fontawesome 추가 작성 내용(기존 내용 포함)
+```
 import './assets/common.css'
 import './registerServiceWorker'
 
@@ -112,27 +116,28 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-/* import the fontawesome core */<br>
-import { library } from '@fortawesome/fontawesome-svg-core'<br>
-/* import font awesome icon component */<br>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'<br>
-/* import specific icons */<br>
-import { fas } from '@fortawesome/free-solid-svg-icons'<br>
-import { fab } from '@fortawesome/free-brands-svg-icons'<br>
-import { far } from '@fortawesome/free-regular-svg-icons'<br>
-import './registerServiceWorker'<br>
+/* import the fontawesome core */
+import { library } from '@fortawesome/fontawesome-svg-core'
+/* import font awesome icon component */
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+/* import specific icons */
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import './registerServiceWorker'
 
-/* add icons to the library */<br>
+/* add icons to the library */
 library.add(fas, fab, far)
 
 const app = createApp(App)
 
-/* add font awesome icon component */<br>
+/* add font awesome icon component */
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.use(router)
 
 app.mount('#app')
+```
 
 ## index.html 작성된 코드 안에 Bootstrap js 내용 추가
 ```
